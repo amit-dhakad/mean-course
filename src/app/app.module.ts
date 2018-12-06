@@ -1,7 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { MatButtonModule, MatCardModule, MatExpansionModule, MatInputModule, MatToolbarModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatExpansionModule, MatInputModule, MatProgressSpinnerModule, MatToolbarModule } from '@angular/material';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
@@ -9,7 +9,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
-
 
 @NgModule({
   declarations: [
@@ -28,9 +27,10 @@ import { PostListComponent } from './posts/post-list/post-list.component';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
-    HttpClientModule
+    HttpClientModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
