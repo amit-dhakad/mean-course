@@ -1,6 +1,6 @@
 {
   "env": {
-    "MONGO_ATLAS_PW": "eqHsctsixIdvUpyl",
+    "MONGO_ATLAS_PW": "mongo db password",
     "JWT_KEY": "secret_this_should_be_longer"
   }
 }
